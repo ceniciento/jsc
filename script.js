@@ -1,5 +1,5 @@
 // CONFIGURACIÓN COMERCIAL
-const TELEFONO_REPARTO = "56912345678"; // Escribe aquí tu número real con código de país
+const TELEFONO_REPARTO = "56xxxxx"; // Escribe aquí tu número real con código de país
 
 let productosData = [];
 
