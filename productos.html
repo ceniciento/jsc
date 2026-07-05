@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Revisa nuestro catálogo de cilindros de gas licuado disponibles para reparto a domicilio en Cauquenes. Elige el formato que necesitas.">
+    <meta name="keywords" content="Gas Express, cilindros de gas, gas 11kg, gas 15kg, gas 45kg, Cauquenes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Express - Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Oculta los botones de edición en la página del cliente de forma segura */
+        .admin-actions-block {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>🔥 Distribuidora de Gas Express</h1>
+        <p>Tu cilindro a domicilio en minutos. Revisa precios y pide por WhatsApp.</p>
+        
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="productos.html" class="nav-link active">Productos</a>
+            <a href="nosotros.html" class="nav-link">Quiénes Somos</a>
+            <a href="cauquenes.html" class="nav-link">Zonas de Reparto</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="controls-section">
+            <input type="text" id="searchInput" class="search-box" placeholder="🔎 Escribe para buscar (Ej: 11 kg, 15 kg)...">
+        </div>
+        
+        <!-- Aquí es donde tu script.js inyectará las tarjetas perfectamente cuadradas -->
+        <div id="productsContainer"></div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            
+            <!-- Columna 1: Información de la Empresa -->
+            <div class="footer-column">
+                <h3>🔥 Gas Express</h3>
+                <p>Servicio de reparto de gas licuado a domicilio rápido y confiable. Exclusivo para la comuna de Cauquenes.</p>
+                <p class="footer-phone">📞 Teléfono: <strong>+56 9 1234 5678</strong></p>
+            </div>
+
+            <!-- Columna 2: Navegación -->
+            <div class="footer-column">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Quiénes Somos</a></li>
+                    <li><a href="cauquenes.html">Zonas de Reparto</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Legal -->
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="privacidad.html">Política de Privacidad</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Barra inferior de derechos -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Distribuidora de Gas Express Cauquenes. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- El script cargará al final para mejorar la velocidad de la página -->
+    <script src="script.js"></script>
+</body>
+</html>

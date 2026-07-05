@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cilindro Gas 5 Kg",
+        "descripcion": "Ideal para estufas portátiles o camping. Carga garantizada.",
+        "precio": "$",
+        "imagen": "imagenes/gas-5kg.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Cilindro Gas 11 Kg",
+        "descripcion": "El tamaño tradicional para cocinas de casa. Reparto inmediato.",
+        "precio": "$",
+        "imagen": "imagenes/gas-11kg.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Cilindro Gas 15 Kg",
+        "descripcion": "Mayor rendimiento para el invierno y calefacción general.",
+        "precio": "$",
+        "imagen": "imagenes/gas-15kg.jpg"
+    },
+     {
+        "id": 4,
+        "nombre": "Cilindro Gas 45 Kg",
+        "descripcion": "Para uso industrial o consumo alto.",
+        "precio": "$",
+        "imagen": "imagenes/gas-45kg.jpg"
+    }
+]
